@@ -1,0 +1,22 @@
+.item {
+  background: linear-gradient(to right, red, white 10%);
+  font: 1em sans-serif;
+  font: red;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  padding: 20px;
+  width: 750px;
+  box-shadow: 0px 0px 5px 5px gray;
+  margin-left: -40px;
+  margin-right: 40px;
+}
+
+.title {
+  color: red;
+}
+
+.timeStamp {
+  font-weight: bold;
+}

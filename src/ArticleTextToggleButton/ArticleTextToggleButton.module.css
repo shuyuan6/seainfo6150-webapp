@@ -1,0 +1,12 @@
+.button {
+  background-color: red;
+  color: #f0f8ff;
+  padding: 10px, 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-left: -20px;
+  position: relative;
+  top: -30px;
+}
