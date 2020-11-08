@@ -1,33 +1,48 @@
 .container {
-    background-image: linear-gradient(to right, rgba(204, 0, 0, .5), #eee 20% ) ;
-    border: 1px solid #c00;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+  background-image: linear-gradient(to right, rgba(204, 0, 0, 0.5), #eee 20%);
+  border: 1px solid #c00;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 
 .article {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .wrapper {
-    flex: 1;
+  flex: 1;
 }
 
 .title {
-    color: #c00;
-    margin: 0 0 20px;
+  color: #c00;
+  margin: 0 0 20px;
 }
 
 .text {
-    font-size: 12px;
-    margin: 0 0 20px;
+  font-size: 12px;
+  margin: 0 0 20px;
 }
 
 .time {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .article {
+    flex-flow: row wrap;
+  }
 }
